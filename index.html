@@ -155,6 +155,37 @@
   }
   .loading { color: var(--muted); font-family: 'JetBrains Mono', monospace; font-size: .8rem; }
 
+  /* Candado */
+  #book .lock-card {
+    margin: 4.5rem 0 2rem;
+    padding: 2.25rem 2rem;
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    background:
+      repeating-linear-gradient(135deg, transparent, transparent 14px, rgba(0,241,254,.04) 14px, rgba(0,241,254,.04) 28px),
+      var(--paper-raised);
+    text-align: center;
+  }
+  #book .lock-icon { font-size: 2.6rem; line-height: 1; margin-bottom: .75rem; }
+  #book .lock-tag { font-family: 'JetBrains Mono', monospace; font-size: .68rem; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); margin-bottom: .25rem; }
+  #book .lock-card h1.lock-title { margin: 0 0 1rem; font-size: clamp(1.5rem, 3.5vw, 2rem); }
+  #book .lock-card > p { max-width: 52ch; margin-left: auto; margin-right: auto; }
+  #book .lock-sub { font-weight: 700; margin-top: 1.5rem; }
+  #book .lock-list { list-style: none; padding: 0; margin: 0 auto 1.5rem; max-width: 46ch; text-align: left; color: var(--muted); font-size: .92rem; }
+  #book .lock-list li { padding: .3rem 0; border-bottom: 1px dashed var(--rule); }
+  #book .lock-form { display: flex; gap: .5rem; justify-content: center; flex-wrap: wrap; margin-top: 1.25rem; }
+  #book .lock-form input {
+    font: inherit; font-family: 'JetBrains Mono', monospace; font-size: .95rem; letter-spacing: .08em; text-transform: uppercase;
+    padding: .65rem .9rem; border: 1px solid var(--rule); border-radius: 8px; background: var(--paper); color: var(--ink);
+    min-width: 0; flex: 1 1 200px; max-width: 280px;
+  }
+  #book .lock-form button {
+    font: inherit; font-weight: 700; padding: .65rem 1.2rem; border: 0; border-radius: 8px;
+    background: var(--accent); color: var(--paper); cursor: pointer;
+  }
+  #book .lock-error { color: #c0392b; font-size: .9rem; margin-top: .75rem; }
+  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+
   #backdrop { display: none; }
 
   @media (max-width: 900px) {
@@ -226,14 +257,111 @@
       .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   }
 
+  // Candados: cada bloque del libro entre <!-- candado:inicio NOMBRE --> y <!-- candado:fin -->
+  // se muestra bloqueado hasta que el lector escriba el código. Aquí va la huella SHA-256 del código
+  // (en mayúsculas, sin espacios). Es un candado visual: el texto sigue en ebook.md.
+  var CANDADOS = {
+    independiente: {
+      titulo: 'Capítulo 2 · Independiente',
+      palabra: 'INDEPENDIENTE',
+      huella: 'a3728b79914920a7711d185d4def6cf9dc7877f4ce1a43132ef9bdb09d2746ed'
+    }
+  };
+
+  function abierto(nombre) { try { return localStorage.getItem('candado-' + nombre) === 'abierto'; } catch (e) { return false; } }
+  function huella(texto) {
+    return crypto.subtle.digest('SHA-256', new TextEncoder().encode(texto)).then(function (buf) {
+      return Array.prototype.map.call(new Uint8Array(buf), function (b) { return b.toString(16).padStart(2, '0'); }).join('');
+    });
+  }
+  function escapar(t) { return t.replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+
+  function convertir(md) {
+    var partes = md.split(/<!--\s*candado:inicio\s+([a-z0-9-]+)\s*-->|<!--\s*candado:fin\s*-->/);
+    var html = '';
+    var nombre = null;
+    for (var i = 0; i < partes.length; i++) {
+      var p = partes[i];
+      if (p === undefined) continue;
+      if (i % 2 === 1) { if (CANDADOS[p]) nombre = p; continue; }
+      if (!p.trim()) continue;
+      if (nombre && !abierto(nombre)) {
+        html += tarjetaCandado(nombre, marked.parse(p));
+        nombre = null;
+      } else {
+        html += marked.parse(p);
+        nombre = null;
+      }
+    }
+    return html;
+  }
+
+  function tarjetaCandado(nombre, contenido) {
+    var c = CANDADOS[nombre];
+    var tmp = document.createElement('div');
+    tmp.innerHTML = contenido;
+    var temas = Array.prototype.map.call(tmp.querySelectorAll('h2'), function (h) { return h.textContent.trim(); })
+      .filter(function (t) { return /^\d+\./.test(t); });
+    return '<section class="lock-card" id="candado-' + nombre + '" data-candado="' + nombre + '">' +
+      '<div class="lock-icon" aria-hidden="true">🔒</div>' +
+      '<p class="lock-tag">// contenido bloqueado</p>' +
+      '<h1 class="lock-title">' + escapar(c.titulo) + '</h1>' +
+      '<p>Este capítulo está bloqueado. Escríbeme por interno en mis redes con la palabra <strong>' + escapar(c.palabra) + '</strong> y te envío el código para abrirlo.</p>' +
+      (temas.length ? '<p class="lock-sub">Lo que vas a encontrar:</p><ul class="lock-list">' + temas.map(function (t) { return '<li>🔒 ' + escapar(t) + '</li>'; }).join('') + '</ul>' : '') +
+      '<form class="lock-form"><label class="sr" for="codigo-' + nombre + '">Código</label>' +
+      '<input id="codigo-' + nombre + '" autocomplete="off" placeholder="Escribe tu código" required>' +
+      '<button type="submit">Desbloquear</button></form>' +
+      '<p class="lock-error" role="alert" hidden>Ese código no es correcto. Revísalo e intenta de nuevo.</p>' +
+      '</section>';
+  }
+
+  var MD = '';
   fetch('ebook.md', { cache: 'no-cache' })
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.text(); })
     .then(function (md) {
       // La portada ya está en la página: se omite el bloque inicial del archivo hasta «Antes de empezar».
       var start = md.indexOf('# Antes de empezar');
       if (start > 0) md = md.slice(start);
+      MD = md;
+      pintar();
+    })
+    .catch(function () {
+      document.getElementById('book').innerHTML = '<p class="loading">No se pudo cargar el libro. Puedes leerlo en <a href="ebook.md">ebook.md</a>.</p>';
+    });
+
+  document.getElementById('book').addEventListener('submit', function (e) {
+    var form = e.target.closest('.lock-form');
+    if (!form) return;
+    e.preventDefault();
+    var card = form.closest('.lock-card');
+    var nombre = card.dataset.candado;
+    var valor = form.querySelector('input').value.trim().toUpperCase().replace(/\s+/g, '');
+    huella(valor).then(function (h) {
+      if (h === CANDADOS[nombre].huella) {
+        try { localStorage.setItem('candado-' + nombre, 'abierto'); } catch (err) {}
+        var anchor = card.id;
+        pintar(true);
+        var primero = document.querySelector('[data-abierto="' + nombre + '"]') || document.getElementById(anchor);
+        if (primero) primero.scrollIntoView();
+      } else {
+        card.querySelector('.lock-error').hidden = false;
+      }
+    });
+  });
+
+  var obs = null;
+  function pintar(recienAbierto) {
+      var md = MD;
       var book = document.getElementById('book');
-      book.innerHTML = marked.parse(md);
+      book.innerHTML = convertir(md);
+      if (recienAbierto) {
+        // Marca el primer título del capítulo recién abierto para llevar al lector allí.
+        Object.keys(CANDADOS).forEach(function (n) {
+          if (!abierto(n)) return;
+          var titulo = Array.prototype.find.call(book.querySelectorAll('h1'), function (h) { return h.textContent.indexOf(CANDADOS[n].titulo.split(' · ')[0]) === 0; });
+          if (titulo) titulo.setAttribute('data-abierto', n);
+        });
+      }
 
       book.querySelectorAll('table').forEach(function (t) {
         var w = document.createElement('div'); w.className = 'table-wrap';
@@ -262,6 +390,7 @@
             var label = text;
             var next = h.nextElementSibling;
             if (isChapter && next && next.tagName === 'H2') { label = text + ' · ' + next.textContent.trim(); skipNextH2 = true; }
+            if (h.closest('.lock-card')) label = '🔒 ' + label;
             lastGroup = label;
             var g = document.createElement('a');
             g.href = '#' + id; g.className = 'group'; g.textContent = label; g.dataset.title = label;
@@ -280,11 +409,11 @@
         a.href = '#' + id; a.textContent = text; a.dataset.title = title;
         toc.appendChild(a);
       }
-      toc.addEventListener('click', function (e) { if (e.target.tagName === 'A') body.classList.remove('nav-open'); });
 
       var links = Array.prototype.slice.call(toc.querySelectorAll('a'));
       var current = document.getElementById('current');
-      var obs = new IntersectionObserver(function (entries) {
+      if (obs) obs.disconnect();
+      obs = new IntersectionObserver(function (entries) {
         entries.forEach(function (e) {
           if (!e.isIntersecting) return;
           links.forEach(function (l) {
@@ -296,14 +425,12 @@
       }, { rootMargin: '-10% 0px -80% 0px' });
       heads.forEach(function (h) { obs.observe(h); });
 
-      if (location.hash) {
+      if (location.hash && !recienAbierto) {
         var target = document.getElementById(location.hash.slice(1));
         if (target) target.scrollIntoView();
       }
-    })
-    .catch(function () {
-      document.getElementById('book').innerHTML = '<p class="loading">No se pudo cargar el libro. Puedes leerlo en <a href="ebook.md">ebook.md</a>.</p>';
-    });
+  }
+  document.getElementById('toc').addEventListener('click', function (e) { if (e.target.tagName === 'A') body.classList.remove('nav-open'); });
 })();
 </script>
 </body>

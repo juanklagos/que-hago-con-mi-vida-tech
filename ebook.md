@@ -551,7 +551,435 @@ Ya no gana el que manda más hojas de vida, ni el que sabe más herramientas. Ga
 
 ---
 
-*Capítulo 2 · Independiente: en preparación.*
+<!-- candado:inicio independiente -->
+
+# Capítulo 2
+
+## Independiente
+
+### Cómo vender tu talento directamente y cobrar por lo que resuelves
+
+---
+
+### Introducción
+
+Este capítulo es para ti si quieres trabajar por tu cuenta: tus clientes, tus precios, tus horarios.
+
+Es el camino de la libertad. Pero la libertad tiene una condición:
+
+👉 nadie te va a buscar si no sabe exactamente qué resuelves.
+
+La mayoría de los independientes no fracasa por falta de talento. Fracasa porque se presenta como todos, le vende a cualquiera y cobra por hora.
+
+Este capítulo es para hacer lo contrario.
+
+---
+
+## 1. ¿Y tú a qué te dedicas?
+
+> 🎬 **Video:** INDEPENDIENTE 01 · *[enlace pendiente]*
+
+Alguien te pregunta a qué te dedicas. Respondes: «Hago páginas web».
+
+Ahí murió la conversación.
+
+No porque sea mala respuesta. Porque suena igual que la de miles de personas… y que la de una IA gratis.
+
+---
+
+### La presentación que abre conversaciones
+
+Usa esta fórmula:
+
+👉 **Ayudo a** [tipo de cliente] **a** [resultado] **sin** [el dolor que tienen hoy].
+
+| En vez de… | Di… |
+|---|---|
+| «Hago páginas web». | «Ayudo a restaurantes a recibir pedidos por WhatsApp sin perder ni uno». |
+| «Soy desarrollador». | «Ayudo a peluquerías a llenar su agenda sin pasar el día contestando mensajes». |
+| «Hago automatizaciones». | «Ayudo a contadores a sacar reportes en minutos sin copiar y pegar». |
+
+Ahora la otra persona pregunta: «¿Y cómo?».
+
+Ese «cómo» es tu oportunidad de vender.
+
+---
+
+### Acción de 5 minutos
+
+Escribe tu presentación con la fórmula. Dila en voz alta. Si suena a algo que podría decir cualquiera, todavía es muy general.
+
+---
+
+## 2. Yo le hago páginas a cualquiera
+
+> 🎬 **Video:** INDEPENDIENTE 02 · *[enlace pendiente]*
+
+«Le hago páginas a cualquiera».
+
+Suena a ventaja. En realidad es el problema: si le hablas a todos, nadie siente que le hablas a él.
+
+---
+
+### Nicho dentro del nicho
+
+«Negocios locales» no es un nicho. Es medio mundo.
+
+Baja de nivel hasta que te dé un poco de miedo:
+
+1. Negocios
+2. Belleza
+3. Peluquerías
+4. 👉 Barberías que agendan por WhatsApp y pierden citas
+
+En el último nivel ya sabes qué les duele, dónde encontrarlos y qué decirles.
+
+---
+
+### Lo que dicen los expertos
+
+**Blair Enns**, autor de *Win Without Pitching*, enseña a vender servicios a partir de una prioridad: **ser la opción obvia** para un tipo de cliente.
+
+Cuando eres «el que hace sistemas para barberías», la barbería no te compara con otros cinco. Te llama a ti.
+
+---
+
+### Acción de 5 minutos
+
+Escribe tu nicho actual y bájalo dos niveles más. Si en el último puedes nombrar tres negocios reales de tu ciudad, vas bien.
+
+---
+
+## 3. El cliente está a la vuelta
+
+> 🎬 **Video:** INDEPENDIENTE 03 · *[enlace pendiente]*
+
+Todos quieren clientes en Estados Unidos desde el primer día.
+
+Error.
+
+Tu primer cliente está a diez cuadras.
+
+---
+
+### Por qué empezar local
+
+- Puedes ir, mirar cómo atienden y ver qué les duele.
+- La confianza se gana más rápido cara a cara.
+- Un negocio recomienda a otro del mismo gremio.
+- Cada caso real te sirve para vender el siguiente.
+
+---
+
+### La escalera
+
+1. **Tres proyectos en tu ciudad**, en tu nicho.
+2. Con esos resultados, **los siguientes diez**.
+3. Con diez, ya eres «el que sabe de restaurantes».
+4. Ahí sí: **nacional**, y después, el mundo.
+
+👉 Primero local. Después nacional. Después, el mundo.
+
+---
+
+### Acción de 5 minutos
+
+Abre el mapa de tu ciudad. Busca tu nicho cerca de ti y anota cinco negocios con nombre y dirección.
+
+---
+
+## 4. Le escribí y me dejó en visto
+
+> 🎬 **Video:** INDEPENDIENTE 04 · *[enlace pendiente]*
+
+¿Le escribiste a un negocio y te dejó en visto?
+
+Seguro le dijiste: «¿Necesita una página web?».
+
+Ese mensaje pide algo. Y nadie responde a un desconocido que le pide algo.
+
+---
+
+### El mensaje que sí funciona
+
+Primero estudia su negocio: sus redes, cómo atienden, qué se quejan sus clientes en las reseñas.
+
+Después escribe así:
+
+> Hola, [nombre]. Vi que en [negocio] reciben pedidos por Instagram y algunos quedan perdidos entre los mensajes.
+> Les armé una idea de cómo ordenarlo para que el pedido llegue completo y con el total calculado.
+> ¿Se la muestro en cinco minutos?
+
+---
+
+### Por qué funciona
+
+- **Demuestra que lo estudiaste.** No es un mensaje masivo.
+- **Nombra un dolor concreto** que ellos ya sienten.
+- **Lleva una solución**, no una pregunta.
+- **Pide poco:** cinco minutos, no un contrato.
+
+👉 Ya no estás pidiendo trabajo. Estás llevando una solución.
+
+---
+
+### Acción de 5 minutos
+
+Elige uno de los cinco negocios de la sección anterior. Mira sus redes y escribe el mensaje con la plantilla. No lo envíes todavía: léelo mañana con ojos frescos y luego envíalo.
+
+---
+
+## 5. No le mostré la página, le mostré los pedidos
+
+> 🎬 **Video:** INDEPENDIENTE 05 · *[enlace pendiente]*
+
+Esto no es teoría.
+
+Le hice la página a **Arrocito en Bajo**, un restaurante de Cúcuta.
+
+Pero lo que vendí no fue una página bonita. Fue esto:
+
+- el cliente elige sabor, tamaño, acompañantes y bebida
+- el pedido le llega al restaurante por WhatsApp, completo
+- con el total ya calculado
+- 👉 cero errores, cero vueltas
+
+*[Agrega aquí el resultado que te contó el dueño: menos errores, más pedidos o el tiempo que se ahorran.]*
+
+---
+
+### Lo que aprendí
+
+Un negocio. Un problema. Un resultado que se ve.
+
+Ahora, cada restaurante que ve esa página entiende de inmediato lo que hago. No tengo que explicarlo.
+
+👉 Un caso real vale más que cien promesas.
+
+---
+
+### Cómo contar tu caso
+
+1. **Quién era el cliente** y qué hacía antes.
+2. **Qué le dolía.**
+3. **Qué hiciste**, en una línea.
+4. **Qué cambió**, con un número si puedes.
+5. **Pruébalo:** captura de pantalla, video o testimonio.
+
+---
+
+### Acción de 5 minutos
+
+Escribe tu mejor proyecto con esos cinco puntos. Si todavía no tienes uno, vuelve a la sección 2 del capítulo de Empleo: fabrica experiencia real.
+
+---
+
+## 6. ¿Cuánto cobras la hora?
+
+> 🎬 **Video:** INDEPENDIENTE 06 · *[enlace pendiente]*
+
+Te preguntan: «¿Cuánto cobras la hora?».
+
+Si respondes con un número, ya perdiste.
+
+---
+
+### Lo que dicen los expertos
+
+**Jonathan Stark** fue desarrollador y hoy enseña a independientes a dejar de cobrar por hora. Defiende el **precio por valor**: un precio fijo basado en lo que el resultado vale para el cliente.
+
+Piénsalo así: cobrar por hora te castiga por ser rápido.
+
+Si con IA terminas en la mitad del tiempo, ¿por qué vas a ganar la mitad?
+
+---
+
+### Cómo responder
+
+> «No cobro por hora. Cobro por el resultado: tu sistema de pedidos, listo y funcionando, cuesta [precio]».
+
+Ventajas:
+
+- **El cliente** sabe desde el inicio cuánto va a pagar.
+- **Tú** ganas por resolver, no por demorarte.
+- **Ninguno** de los dos cuenta horas.
+
+---
+
+### Acción de 5 minutos
+
+Toma tu servicio principal y escríbelo como un paquete con resultado y precio fijo. Ejemplo: «Agenda en línea para barberías, funcionando en siete días: [precio]».
+
+---
+
+## 7. Me pidieron una cotización gratis
+
+> 🎬 **Video:** INDEPENDIENTE 07 · *[enlace pendiente]*
+
+«Mándame una propuesta y te aviso».
+
+Y compites con otros cinco, gratis, por el mismo trabajo.
+
+---
+
+### La trampa de la propuesta gratis
+
+Cuando todos ofrecen lo mismo, el cliente solo puede comparar una cosa: el precio.
+
+Y la competencia por precio la gana el que más barato trabaja, no el que mejor resuelve.
+
+---
+
+### Cómo salir de ahí
+
+Vuelve a la idea de **Blair Enns**: sé la opción obvia.
+
+- Especialízate tanto que no haya cinco como tú en tu ciudad.
+- Muestra casos del mismo tipo de negocio.
+- En vez de una propuesta larga, ofrece una **conversación de diagnóstico** donde entiendes su problema antes de dar un precio.
+
+👉 El generalista hace propuestas. El especialista recibe llamadas.
+
+---
+
+### Acción de 5 minutos
+
+Escribe tres preguntas de diagnóstico que le harías a tu cliente ideal antes de darle un precio. Ejemplo: «¿Cuántos pedidos se les pierden en una semana normal?».
+
+---
+
+## 8. Está muy caro
+
+> 🎬 **Video:** INDEPENDIENTE 08 · *[enlace pendiente]*
+
+«Está muy caro».
+
+Esa frase casi nunca es sobre el precio. Es que el cliente no ve el resultado.
+
+---
+
+### Haz la cuenta con él
+
+No discutas. Pregunta:
+
+1. ¿Cuántos pedidos se te pierden a la semana?
+2. ¿Cuánto vale un pedido promedio?
+3. ¿Cuánto pierdes al mes?
+
+Si pierde más de lo que cuesta tu solución, ya no es caro. Es una inversión.
+
+---
+
+### Ejemplo
+
+| Dato | Valor |
+|---|---|
+| Pedidos perdidos por semana | 5 |
+| Valor promedio del pedido | $40.000 |
+| Pérdida al mes | $800.000 |
+| Tu solución | $1.500.000, una sola vez |
+
+En dos meses, la solución se paga sola.
+
+👉 No bajes el precio. Sube la claridad del resultado.
+
+---
+
+### Acción de 5 minutos
+
+Haz la tabla para tu cliente ideal, con números aproximados. Guárdala: es tu mejor respuesta al «está muy caro».
+
+---
+
+## 9. Que te digan que sí sin pensarlo
+
+> 🎬 **Video:** INDEPENDIENTE 09 · *[enlace pendiente]*
+
+Hay ofertas que hay que convencer. Y hay ofertas que da pena rechazar.
+
+---
+
+### Lo que dicen los expertos
+
+**Alex Hormozi**, en su libro *$100M Offers*, explica que una oferta vale más cuando mueves cuatro palancas:
+
+| Sube… | Baja… |
+|---|---|
+| El **resultado** que el cliente sueña. | El **tiempo** que tarda en verlo. |
+| La **confianza** de que lo va a lograr. | El **esfuerzo** que le cuesta. |
+
+También insiste en elegir bien el mercado: un público específico, con un dolor urgente y con capacidad de pagar.
+
+---
+
+### Ejemplo aplicado
+
+> «Pedidos por WhatsApp sin errores (resultado), con el caso de Arrocito en Bajo como prueba (confianza), funcionando en siete días (tiempo), y yo me encargo de todo: tú solo me das el menú (esfuerzo)».
+
+👉 Así no vendes una página. Vendes un sí fácil.
+
+---
+
+### Acción de 5 minutos
+
+Reescribe tu paquete de la sección 6 moviendo las cuatro palancas. Una frase por palanca.
+
+---
+
+## 10. ¿Y si no me funciona?
+
+> 🎬 **Video:** INDEPENDIENTE 10 · *[enlace pendiente]*
+
+Todo cliente piensa lo mismo antes de pagar:
+
+«¿Y si no me funciona?».
+
+Si no respondes esa pregunta, el cliente la responde solo. Y casi siempre se responde «mejor no».
+
+---
+
+### Quítale el riesgo
+
+Una garantía clara elimina ese miedo. Por ejemplo:
+
+> «Si en treinta días los pedidos no te llegan ordenados, lo ajusto sin costo hasta que funcione».
+
+Hormozi la cuenta como parte de una oferta difícil de rechazar.
+
+---
+
+### Cómo diseñar una garantía sin arruinarte
+
+- **Garantiza el resultado que controlas**, no el que depende del cliente.
+- **Pon un plazo.**
+- **Ofrece ajustar antes que devolver dinero.**
+- **Escríbela**, no la dejes en palabras.
+
+👉 El que asume el riesgo, se queda con el cliente.
+
+---
+
+### Acción de 5 minutos
+
+Escribe la garantía de tu paquete en una sola frase, con plazo y condición.
+
+---
+
+### Cierre del capítulo
+
+Ser independiente no es hacer de todo para cualquiera. Es:
+
+- presentarte por el resultado que das
+- elegir un nicho tan pequeño que te dé miedo
+- empezar en tu ciudad
+- llevar soluciones, no pedir trabajo
+- contar casos reales
+- cobrar por valor, no por hora
+- y quitarle el riesgo al cliente
+
+👉 Si te pagan, que sea por lo que resuelves.
+
+<!-- candado:fin -->
 
 *Capítulo 3 · Empresario: en preparación.*
 
@@ -565,6 +993,9 @@ Ya no gana el que manda más hojas de vida, ni el que sabe más herramientas. Ga
 - Gergely Orosz, *The Pragmatic Engineer*: [newsletter](https://newsletter.pragmaticengineer.com/i/201325168/3-mobile-and-frontend-demand-drops-ai-and-fde-surges), [resumen del informe 2026](https://thepixelpioneers.blogspot.com/2026/06/state-of-software-engineering-job.html).
 - Brais Moure (MoureDev): [Cómo estudiar programación en 2026](https://recapio.com/digest/como-estudiar-programacion-en-2026-si-de-verdad-quieres-ser-programador-by-mouredev-by-brais-moure).
 - El «junior aumentado»: [Ecosistema Startup](https://ecosistemastartup.com/?p=107814).
+- Blair Enns, *Win Without Pitching*: [Enns en WP-Tonic](https://www.wp-tonic.com/?p=9457), [Win Without Pitching](https://www.winwithoutpitching.com/?p=17295).
+- Jonathan Stark, precio por valor: [Stark con Blair Enns](https://jonathanstark.com/daily/20171219-[audio]-ditching-hourly-pricing-creativity-with-special-guest-blair-enns), [Precio por valor](https://freelancetransformation.com/blog/demystifying-pricing-based-on-value-with-jonathan-stark).
+- Alex Hormozi, *$100M Offers*: [resumen de SuperSummary](https://www.supersummary.com/100m-offers/summary/), [La oferta irresistible](https://campoabierto.substack.com/p/la-oferta-irresistible).
 
 ---
 
