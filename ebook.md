@@ -981,7 +981,538 @@ Ser independiente no es hacer de todo para cualquiera. Es:
 
 <!-- candado:fin -->
 
-*Capítulo 3 · Empresario: en preparación.*
+---
+
+# Capítulo 3
+
+## Empresario
+
+### Cómo pasar de vender tu tiempo a vender un producto
+
+---
+
+### Introducción
+
+Este capítulo es para ti si quieres construir algo que se venda sin que tú estés presente en cada venta: una SaaS, un producto, una empresa.
+
+Es el camino más difícil de los tres. Y también el que más se romantiza.
+
+En redes ves rondas millonarias, apps que se hicieron en un fin de semana y fundadores que «lo dejaron todo».
+
+Lo que no ves son los miles de proyectos que nadie usó.
+
+👉 Un producto no vale por lo bien hecho que está. Vale si alguien paga por él.
+
+Este capítulo es para que el tuyo sea de los que alguien paga.
+
+---
+
+## 1. Tengo una idea para una app
+
+> 🎬 **Video:** EMPRESARIO 01 · *[enlace pendiente]*
+
+«Tengo una idea para una app».
+
+Antes de escribir una línea de código, detente.
+
+Las buenas SaaS casi nunca nacen de una idea brillante. Nacen de un problema que viste repetirse.
+
+---
+
+### Lo que repites, se vuelve empresa
+
+Si vienes del capítulo anterior, esto te va a sonar:
+
+- Le hiciste un sistema de pedidos a un restaurante.
+- Después a otro.
+- Después a un tercero, casi igual.
+
+Ahí no tienes tres clientes. Tienes un producto.
+
+| Lo que ves como… | En realidad es… |
+|---|---|
+| «Otra vez el mismo trabajo». | Un problema que se repite en todo un gremio. |
+| «Copio el proyecto anterior y lo ajusto». | La primera versión de tu producto. |
+| «Siempre me piden lo mismo». | La lista de funciones que la gente sí paga. |
+
+👉 Tu primera SaaS probablemente ya la estás haciendo… como servicio.
+
+---
+
+### Acción de 5 minutos
+
+Escribe los tres últimos trabajos que hiciste. Marca lo que se repitió en al menos dos. Eso es lo primero que podrías convertir en producto.
+
+---
+
+## 2. Primero lo programo y después vendo
+
+> 🎬 **Video:** EMPRESARIO 02 · *[enlace pendiente]*
+
+«Primero lo programo y después lo vendo».
+
+Así se pierden meses. A veces años.
+
+Programar es la parte que ya sabes hacer. Por eso se siente cómoda. Vender es la parte que da miedo. Por eso se deja para después.
+
+---
+
+### Hazlo al revés
+
+1. **Describe el producto** en una página: qué problema resuelve, para quién y cuánto cuesta.
+2. **Muéstraselo a diez posibles clientes** de tu nicho.
+3. **Pide que paguen por adelantado**, aunque sea poco o con descuento por ser los primeros.
+
+Los resultados posibles son dos:
+
+- Si nadie paga, te ahorraste meses de trabajo.
+- Si tres pagan, ya tienes por dónde empezar… y con quién probar.
+
+---
+
+### Plantilla de preventa
+
+> «Estoy construyendo [producto] para [tipo de cliente] que [problema]. Va a estar listo en [fecha]. Los primeros cinco que reserven pagan [precio con descuento] para siempre. ¿Te aparto un cupo?».
+
+👉 Valida con dinero, no con «me gusta».
+
+---
+
+### Acción de 5 minutos
+
+Escribe la página de tu producto en cinco líneas: problema, para quién, qué hace, cuánto cuesta y fecha. Si no puedes escribirla, todavía no sabes qué vas a construir.
+
+---
+
+## 3. Con la IA lo hago en un fin de semana
+
+> 🎬 **Video:** EMPRESARIO 03 · *[enlace pendiente]*
+
+Con IA, un prototipo sale en un fin de semana.
+
+Y eso es buenísimo. Nunca había sido tan barato probar una idea.
+
+Pero un negocio no es un prototipo.
+
+---
+
+### Lo que el prototipo no tiene
+
+Cuando entran clientes reales aparece todo lo que la demo no necesitaba:
+
+| La demo | El negocio |
+|---|---|
+| Un usuario: tú. | Cientos de usuarios con permisos distintos. |
+| Datos de prueba. | Datos reales de cada cliente, separados y protegidos. |
+| «Después veo lo de los pagos». | Cobros, facturas, renovaciones y reembolsos. |
+| Si se cae, lo reinicias. | Si se cae, pierdes clientes. |
+| Nadie la ataca. | Alguien va a intentar entrar. |
+
+---
+
+### Usa cada cosa para lo que sirve
+
+- **La IA**, para llegar rápido: validar, probar, mostrar.
+- **El criterio**, para que dure: seguridad, datos, pagos, arquitectura.
+
+No es una cosa o la otra. Es saber en qué momento estás.
+
+👉 Velocidad sin estructura es retrabajo caro.
+
+---
+
+### Acción de 5 minutos
+
+Mira tu prototipo y responde: ¿qué pasa si mañana entran cien clientes? Anota las tres cosas que se romperían primero.
+
+---
+
+## 4. Ya tengo clientes y todo se está rompiendo
+
+> 🎬 **Video:** EMPRESARIO 04 · *[enlace pendiente]*
+
+¿Ya tienes clientes y todo se está rompiendo?
+
+Felicidades. Es una buena señal.
+
+Significa que tu producto funciona. Ahora tiene que crecer.
+
+---
+
+### Tres señales de que llegaste a ese punto
+
+1. **Cada cambio rompe otra cosa.** Arreglas el registro y se dañan los pagos.
+2. **Solo tú entiendes el código.** Si te enfermas una semana, el negocio se detiene.
+3. **Te da miedo publicar.** Cada actualización es una apuesta.
+
+Si tienes dos de las tres, no necesitas más funciones.
+
+👉 Necesitas arquitectura.
+
+---
+
+### Qué hacer primero
+
+- **Para de agregar funciones** unas semanas.
+- **Escribe pruebas** para lo que más dinero mueve: registro, cobro, la función principal.
+- **Ordena el código** por partes que se puedan cambiar sin tocar las demás.
+- **Documenta** lo mínimo para que otra persona pueda entrar.
+- Si no sabes por dónde empezar, **busca a alguien que ya lo haya hecho**. Es más barato que reescribir todo dentro de un año.
+
+👉 Tu producto ya funciona. Ahora tiene que durar.
+
+---
+
+### Acción de 5 minutos
+
+Responde las tres señales con sí o no. Si tienes dos «sí», esta semana no agregas nada nuevo: escribes la primera prueba de lo que más dinero mueve.
+
+---
+
+## 5. Le pregunté a mi mamá y le encantó mi app
+
+> 🎬 **Video:** EMPRESARIO 05 · *[enlace pendiente]*
+
+«Le mostré mi app a mi mamá y le encantó».
+
+Claro. Es tu mamá.
+
+Y no solo ella: tus amigos, tus compañeros y casi cualquiera te va a decir que tu idea es buena. No porque lo sea, sino porque no quieren hacerte sentir mal.
+
+---
+
+### Lo que dicen los expertos
+
+**Rob Fitzpatrick** escribió un libro entero sobre esto: *The Mom Test*. Su idea es que puedes hablar con clientes sin que te mientan por amabilidad. Tres reglas:
+
+1. **Habla de su vida**, no de tu idea.
+2. **Pregunta por lo que ya hicieron**, no por lo que harían.
+3. **Escucha más de lo que hablas.**
+
+---
+
+### Preguntas que sirven y preguntas que no
+
+| No preguntes… | Pregunta… |
+|---|---|
+| «¿Te parece buena idea?». | «¿Cómo manejas hoy [el problema]?». |
+| «¿Pagarías por esto?». | «¿Cuánto te costó la última vez que pasó?». |
+| «¿Usarías una app así?». | «¿Qué has intentado para resolverlo?». |
+| «¿Cuánto pagarías?». | «¿Hoy pagas algo para resolverlo? ¿Cuánto?». |
+
+Si alguien ya intentó resolverlo, ya gastó tiempo o dinero en eso, hay problema real.
+
+Si nunca ha hecho nada al respecto, probablemente no le duele tanto.
+
+👉 Las opiniones son gratis. Los hechos te dicen si hay negocio.
+
+---
+
+### Acción de 5 minutos
+
+Escribe tres preguntas para tu próximo cliente posible, todas sobre lo que ya hizo, ninguna sobre tu idea.
+
+---
+
+## 6. ¿Primero audiencia o primero producto?
+
+> 🎬 **Video:** EMPRESARIO 06 · *[enlace pendiente]*
+
+Dos expertos serios en SaaS no se ponen de acuerdo.
+
+Y la discusión vale la pena.
+
+---
+
+### Lo que dicen los expertos
+
+**Rob Walling**, fundador de MicroConf y referente de las SaaS sin inversionistas, dice que construir audiencia primero es mala idea para una SaaS: puedes pasar años juntando seguidores que no son clientes.
+
+**Arvid Kahl** dice lo contrario: primero te metes en una comunidad, entiendes su dolor y después construyes. Lo respalda su propia historia: creó y vendió FeedbackPanda en dos años, cuando ya facturaba unos 55 000 dólares al mes.
+
+| | Producto primero (Walling) | Audiencia primero (Kahl) |
+|---|---|---|
+| Empiezas por… | Un problema y una solución que se cobra. | Una comunidad y sus quejas. |
+| El riesgo | Construir algo que nadie conoce. | Juntar seguidores que nunca compran. |
+| Funciona mejor si… | Ya conoces bien el problema. | Todavía no sabes qué construir. |
+
+---
+
+### Mi veredicto
+
+Ninguno de los dos empieza por los seguidores ni por el código.
+
+Los dos empiezan por lo mismo: un problema real de gente real.
+
+La diferencia es el orden en que llegas a ese problema. Si ya lo viviste con tus clientes de servicio, ve por el producto. Si todavía no lo encuentras, ve a la comunidad.
+
+👉 No empieces por los seguidores ni por el código. Empieza por el problema.
+
+---
+
+### Acción de 5 minutos
+
+Responde con honestidad: ¿ya conoces un problema que se repite? Si sí, vuelve a la sección 2. Si no, salta a la sección 10.
+
+---
+
+## 7. Voy a apostarlo todo a esta idea
+
+> 🎬 **Video:** EMPRESARIO 07 · *[enlace pendiente]*
+
+«Voy a dejarlo todo por esta idea».
+
+Valiente. Y muy arriesgado.
+
+Si la idea falla, no solo pierdes el proyecto. Pierdes los ahorros, el tiempo y las ganas de intentarlo otra vez.
+
+---
+
+### Lo que dicen los expertos
+
+**Daniel Vassallo** dejó un empleo muy bien pagado en Amazon. Pero no apostó a una sola idea: hizo varias apuestas pequeñas al mismo tiempo, cursos, herramientas y productos sencillos, y se quedó con las que funcionaron.
+
+**Pieter Levels** es el ejemplo más conocido de fundador que trabaja solo con varios productos rentables a la vez. Su método: lanza rápido, mide y quédate con lo que funciona.
+
+---
+
+### Cómo es una apuesta pequeña
+
+- **Se lanza en semanas**, no en meses.
+- **Cuesta poco**: si falla, no te arruina.
+- **Tiene una señal clara** de éxito: ventas, no visitas.
+- **Tiene fecha de corte**: si en treinta días no hay señal, la sueltas sin drama.
+
+| Una gran apuesta | Varias apuestas pequeñas |
+|---|---|
+| Un año construyendo. | Un mes por intento. |
+| Todo depende de acertar. | Basta con que una funcione. |
+| Si falla, empiezas de cero. | Si falla, ya aprendiste para la siguiente. |
+
+👉 No necesitas acertar a la primera. Necesitas varios intentos baratos.
+
+---
+
+### Acción de 5 minutos
+
+Escribe tres ideas pequeñas que podrías lanzar en menos de un mes. Al lado de cada una, la señal que te diría que vale la pena seguir.
+
+---
+
+## 8. Lo cobro cuando esté listo
+
+> 🎬 **Video:** EMPRESARIO 08 · *[enlace pendiente]*
+
+«Primero lo dejo perfecto y después cobro».
+
+Te cuento un secreto: nunca va a estar listo.
+
+Siempre habrá una función más, un diseño mejor, un error por arreglar.
+
+---
+
+### Lo que dicen los expertos
+
+**Rob Walling**, en *The SaaS Playbook*, insiste en lo mismo que repiten casi todos los que construyen SaaS sin inversionistas: **cobra desde el primer cliente**.
+
+No porque necesites el dinero. Porque el cobro es la única prueba que no miente.
+
+---
+
+### Lo que te dice el cobro
+
+| Si pasa esto… | Significa… |
+|---|---|
+| Pagan por una versión sencilla. | Tienes negocio. |
+| Pagan, pero piden algo específico. | Ya sabes qué construir después. |
+| Usan la versión gratis y no pagan. | Les gusta, pero no les resuelve algo importante. |
+| Nadie paga ni con descuento. | Tienes un pasatiempo. |
+
+---
+
+### Si te da pena cobrar
+
+- Ponle un precio de fundador: más bajo, solo para los primeros.
+- Explica qué incluye hoy y qué viene después.
+- Ofrece la garantía del capítulo anterior: si no funciona, se ajusta o se devuelve.
+
+👉 El dinero es la única opinión honesta.
+
+---
+
+### Acción de 5 minutos
+
+Ponle precio a tu producto hoy, aunque no esté terminado. Escríbelo en tu página. Que se vea.
+
+---
+
+## 9. Necesito inversionistas para empezar
+
+> 🎬 **Video:** EMPRESARIO 09 · *[enlace pendiente]*
+
+«Sin inversionistas no puedo montar mi SaaS».
+
+Eso es lo que ves en las noticias. No lo que pasa en la mayoría.
+
+---
+
+### La otra forma de crecer
+
+Hay miles de SaaS pequeñas que crecieron con el dinero de sus propios clientes. Sin rondas, sin junta directiva, sin presión por crecer a cualquier costo.
+
+A eso se le llama crecer con recursos propios.
+
+**Rob Walling** ha construido una comunidad entera, MicroConf, alrededor de esa idea.
+
+| Con inversionistas | Con tus propios clientes |
+|---|---|
+| Recibes dinero antes de vender. | Vendes antes de gastar. |
+| Tienes que crecer muy rápido. | Creces al ritmo de lo que entra. |
+| Compartes las decisiones. | Las decisiones son tuyas. |
+| Sirve para mercados enormes y carreras de velocidad. | Sirve para nichos donde con cien clientes vives bien. |
+
+Ninguna es mejor en todos los casos. Pero si apenas estás empezando, la segunda es la que puedes empezar mañana.
+
+---
+
+### La cuenta que importa
+
+Haz esta cuenta:
+
+👉 ¿Cuántos clientes necesitas para vivir de tu producto?
+
+Si tu producto cuesta 30 dólares al mes y necesitas 1 500 dólares para vivir, necesitas 50 clientes.
+
+Cincuenta. No un millón de usuarios.
+
+Así se ve mucho más cerca, ¿verdad?
+
+👉 Empieza pequeño, cobra desde el principio y crece con lo que entra. Así el dueño sigues siendo tú.
+
+---
+
+### Acción de 5 minutos
+
+Haz tu cuenta: cuánto necesitas al mes, dividido entre el precio de tu producto. Ese número es tu primera meta.
+
+---
+
+## 10. Sé programar, pero no sé qué construir
+
+> 🎬 **Video:** EMPRESARIO 10 · *[enlace pendiente]*
+
+¿Sabes programar pero no sabes qué construir?
+
+Deja de buscar ideas en tu cabeza.
+
+Las mejores ideas no se inventan. Se escuchan.
+
+---
+
+### Lo que dicen los expertos
+
+**Arvid Kahl**, en *The Embedded Entrepreneur*, propone algo simple: métete en una comunidad y escucha antes de construir.
+
+Un grupo de dueños de peluquerías. De contadores. De transportadores. De profesores.
+
+---
+
+### Cómo buscar quejas
+
+1. **Elige una comunidad** de un gremio que conozcas o que te interese: grupos de Facebook, foros, comunidades de WhatsApp, Reddit.
+2. **Lee sin vender.** Por lo menos dos semanas.
+3. **Apunta cada queja** que tenga que ver con trabajo repetido, errores, tiempo perdido o dinero perdido.
+4. **Cuenta las repetidas.** Una queja aislada es una anécdota. Diez son un mercado.
+
+| Queja que lees | Producto posible |
+|---|---|
+| «Pierdo citas porque no contesto a tiempo». | Agenda automática por WhatsApp. |
+| «Cada mes me toca hacer los reportes a mano». | Reportes automáticos para contadores. |
+| «No sé cuánto me debe cada cliente». | Control de cuentas por cobrar sencillo. |
+
+👉 Cuando diez personas se quejan de lo mismo, ahí tienes tu producto.
+
+---
+
+### Acción de 5 minutos
+
+Únete hoy a una comunidad de un gremio. No publiques nada. Solo empieza tu lista de quejas.
+
+---
+
+### Cierre del capítulo
+
+Ser empresario no es tener una idea brillante. Es:
+
+- convertir en producto lo que ya repetiste
+- vender antes de programar
+- usar la IA para llegar rápido y el criterio para que dure
+- ordenar la casa cuando empieza a crecer
+- preguntar por hechos, no por opiniones
+- hacer apuestas pequeñas
+- cobrar desde el primer cliente
+- crecer con lo que entra
+- y escuchar las quejas de otros
+
+👉 Tu producto vale si alguien paga por él.
+
+---
+
+# Cierre
+
+## Eres lo que resuelves
+
+> 🎬 **Video:** PUENTE 01 · *[enlace pendiente]*
+
+Llegaste hasta aquí. Recorriste los tres caminos.
+
+Quizá ya sabes cuál es el tuyo. Quizá todavía no. Y está bien: muchos pasan por los tres en distintos momentos de su vida.
+
+Pero hay una regla que se repite en todos.
+
+---
+
+### La misma regla, tres veces
+
+**En el empleo**, lo dice Patrick McKenzie: te contratan por el valor que generas, no por el lenguaje que sabes.
+
+**En el independiente**, lo dice Alex Hormozi: te pagan por el resultado, no por las horas.
+
+**En el empresario**, lo dice Rob Walling: tu producto vale si alguien paga por él.
+
+| Camino | Lo que te pregunta el mundo |
+|---|---|
+| Empleo | ¿Qué problema le resuelves a esta empresa? |
+| Independiente | ¿Qué resultado le das a este cliente? |
+| Empresario | ¿Por qué problema pagaría esta gente? |
+
+Tres caminos. La misma pregunta.
+
+---
+
+### La IA no te quitó eso
+
+La IA cambió las herramientas. Escribe código, diseña, redacta.
+
+Pero no sabe qué le duele al dueño del restaurante de la esquina. No se sienta con el gerente a entender por qué pierde clientes. No se hace responsable del resultado.
+
+Eso sigue siendo tuyo.
+
+👉 No eres tu herramienta. No eres tu lenguaje de programación. No eres tu título.
+
+👉 **Eres lo que resuelves.**
+
+---
+
+### Tu siguiente paso
+
+No cierres este libro con ganas. Ciérralo con una acción:
+
+1. **Elige un camino** para los próximos noventa días. Solo uno.
+2. **Vuelve a su capítulo** y haz las acciones de 5 minutos en orden.
+3. **Cuéntame cómo te va.** Escríbeme por interno en mis redes con el hashtag **#QuéHagoConMiVidaTech**.
+
+Nos vemos en el camino.
 
 ---
 
@@ -996,6 +1527,10 @@ Ser independiente no es hacer de todo para cualquiera. Es:
 - Blair Enns, *Win Without Pitching*: [Enns en WP-Tonic](https://www.wp-tonic.com/?p=9457), [Win Without Pitching](https://www.winwithoutpitching.com/?p=17295).
 - Jonathan Stark, precio por valor: [Stark con Blair Enns](https://jonathanstark.com/daily/20171219-[audio]-ditching-hourly-pricing-creativity-with-special-guest-blair-enns), [Precio por valor](https://freelancetransformation.com/blog/demystifying-pricing-based-on-value-with-jonathan-stark).
 - Alex Hormozi, *$100M Offers*: [resumen de SuperSummary](https://www.supersummary.com/100m-offers/summary/), [La oferta irresistible](https://campoabierto.substack.com/p/la-oferta-irresistible).
+- Rob Fitzpatrick, *The Mom Test*: [Shortform: las 3 reglas](https://www.shortform.com/blog/what-is-the-mom-test/), [Readingraphics](https://readingraphics.com/book-summary-the-mom-test/).
+- Rob Walling, *The SaaS Playbook*: [Walling en Indie Bites](https://indiebites.transistor.fm/97), [resumen en Blinkist](https://www.blinkist.com/en/books/the-saas-playbook-en).
+- Arvid Kahl, *The Embedded Entrepreneur* y FeedbackPanda: [Kahl en Indie Bites](https://indiebites.transistor.fm/episodes/lessons-learned-growing-a-bootstrapped-company-to-55k-mrr-then-selling-it-arvid-kahl-thebootstrappedfounder), [Kahl en Indie Hackers](https://www.indiehackers.com/post/arvid-kahl-how-this-indie-hacker-bootstrapped-feedbackpanda-to-55k-mrr-and-sold-it-in-just-2-years-06ad0a81bf).
+- Daniel Vassallo y Pieter Levels, apuestas pequeñas: [Vassallo con Arvid Kahl](https://thebootstrappedfounder.com/a-conversation-with-daniel-vassallo), [Por qué un portafolio de apuestas pequeñas](https://www.indiehackers.com/post/why-have-a-portfolio-of-small-bets-40d41d13ab), [El viaje de Pieter Levels](https://finder.techleap.nl/news/note/the-internet-s-solitary-millionaire-pieter-levels-journey).
 
 ---
 

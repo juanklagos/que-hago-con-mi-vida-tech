@@ -385,7 +385,7 @@
 
         if (h.tagName === 'H1') {
           var isChapter = /^Cap[ií]tulo/.test(text);
-          var isGroup = isChapter || /^Introducci[oó]n/.test(text);
+          var isGroup = isChapter || /^(Introducci[oó]n|Cierre)$/.test(text);
           if (isGroup) {
             var label = text;
             var next = h.nextElementSibling;

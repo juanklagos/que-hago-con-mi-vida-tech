@@ -24,7 +24,7 @@ Programadores, estudiantes, *vibe coders* y gente que construye con IA o sin có
 - [x] Introducción
 - [x] Capítulo 1 · Empleo
 - [x] Capítulo 2 · Independiente (con candado: se abre con código)
-- [ ] Capítulo 3 · Empresario
-- [ ] Cierre
-- [ ] Página web (`index.html`) con el diseño de la colección
+- [x] Capítulo 3 · Empresario
+- [x] Cierre
+- [x] Página web (`index.html`) con el diseño de la colección
 - [ ] Enlaces a los videos publicados
