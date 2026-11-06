@@ -983,6 +983,8 @@ Ser independiente no es hacer de todo para cualquiera. Es:
 
 ---
 
+<!-- candado:inicio empresario -->
+
 # Capítulo 3
 
 ## Empresario
@@ -1455,6 +1457,8 @@ Ser empresario no es tener una idea brillante. Es:
 - y escuchar las quejas de otros
 
 👉 Tu producto vale si alguien paga por él.
+
+<!-- candado:fin -->
 
 ---
 
